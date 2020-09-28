@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Our Services</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+
+            body {
+                text-align: center;
+            }
+            
+            .table {
+                border: 1px solid #161566;
+                border-collapse: collapse;
+                border-width: 5px;
+                width: 50%;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            tr td {
+                border: 3px solid #2d0966;
+                width: 50%;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="navbar container">
+                <div>
+                    <a href="index.html">Home</a>
+                </div>
+                <div>
+                    <a href="#">Services</a>
+                </div>
+                <div>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </header>
+
+        <h1>Our Services</h1>
+        <hr />
+        <p>Here is a listing of all of our prices. Please select your order.</p>
+
+        <table class="table">
+            <tr>
+                <th>Dish Number</th>
+                <th>Burger Name</th>
+                <th>Calories</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Burger101</td>
+                <td>101</td>
+                <td>$3.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Average Joe Burger</td>
+                <td>350</td>
+                <td>$8.99</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Big Boy Burger</td>
+                <td>1350</td>
+                <td>$15.39</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>God's Burger</td>
+                <td>2100</td>
+                <td>$22.99</td>
+            </tr>
+        </table>
+        <hr />
+
+        <p>Purchases are non-refundable.</p>
+        <p>Be sure to specify the corresponding Dish Number in your order.</p>
+        <form action="#">
+            
+            <label for="dish">Dish Number</label>
+            <input type="number" id="dish" name="dish" value="1" style="text-align: right;"><br />
+
+            <p>Optional Add-Ons</p>
+            <label for="addon">Lettuce</label>
+            <input type="checkbox" id="pickup" name="lettuce" value="lettuce"> &nbsp
+
+            <label for="addon">Tomato</label>
+            <input type="checkbox" id="pickup" name="tomato" value="tomato"> &nbsp
+
+            <label for="addon">Ketchup</label>
+            <input type="checkbox" id="pickup" name="ketchup" value="ketchup"> &nbsp
+
+            <br /><br />
+            <label for="pickup">Pick-up</label>
+            <input type="radio" id="pickup" name="order" value="pickup"> &nbsp
+
+            <label for="delivery">Delivery</label>
+            <input type="radio" id="delivery" name="order" value="delivery"> <br />
+
+            <br />
+            Name: &nbsp
+            <input type="text" id="name" name="name" value="John Smith"><br /><br />
+            Address (Optional): &nbsp
+            <input type="text" id="name" name="name" value="123 Maple Street"><br /><br />
+            Credit Card: &nbsp
+            <input type="text" id="name" name="name" value="1234567890"><br /><br />
+
+            <input type="submit" value="Place Order">
+        </form>
+        <br />
+        <br />
+
+        <footer id="feet" style="text-align: center;">
+            <p>Designed by James Lai &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp September 2020 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp COMP 20</p>
+        </footer>
+
+    </body>
+
+
+</html>
